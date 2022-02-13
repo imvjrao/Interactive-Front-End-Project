@@ -6,113 +6,145 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 </head>
 <body>
-    <header>
-        <div class="main-title">
-            <h1 class="name">VIJAY RAO</h1>
-            <h2 class="title">SUPPLY CHAIN SPECIALIST</h2>
+    <div class="container-fluid">
+
+        <header>
+            <div class="main-title">
+                <h1 class="name">VIJAY RAO</h1>
+                <h2 class="title">SUPPLY CHAIN SPECIALIST</h2>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#AboutMe"><button>About Me</button></a>
+                    </li>
+                    <li>
+                        <a href="#Project"><Button>Project</Button></a>
+                    </li>
+                    <li>
+                        <a href="#Work"><Button>Work</Button></a>
+                    </li>
+                    <li>
+                        <a href="#ContactMe"><Button>Contact Me</Button></a>
+                    </li>
+                    <li>
+                        <a href="#Resume"><button>Resume</button></a>
+                    </li>
+                    
+                </ul>
+            </nav>
+        </header>
+        <section id="AboutMe" class="m-1 row">
+            
+            <article class="col-3 quarter">
+        
+                <div class="d-flex p-2 header-spacer ">
+                    <h2>About Me</h2>
+                </div>
+        
+            </article>
+            <article class="col-9">
+                <div class="d-flex p-2">
+                    <p>Graduated from Seneca College after completing Supply Chain Management. Worked in the Supply chain
+                    industry for more than 5 years. Have strong knowledge and experience working on implementation of
+                    different ERP system tools.
+                    After developing the ERP implemention skills, now learning and developing how to develop ERP system
+                    tools which will be customized and applied to different industries besed on their needs.
+                    </p>
+                </div>
+            </article>
+            
+        </section>
+                <section id="Project" class="m-1 row">
+            
+            <article class="col-3 quarter">
+        
+                <div class="d-flex p-2 header-spacer ">
+                    <h2>Project</h2>
+                </div>               
+            </article>
+            <article class="col-9">
+                <div class="row d-flex p-2">
+                    <div class="col-4 d-flex p-2">
+                        <a href="https://evanab14.github.io/trivializer/"><img src="./Images/Trivializer.jpg" alt="trivializer written in green font with a unicorn"><h3>Trivializer</h3></a>
+                    </div>
+                </div>
+                <div class="col d-flex p-2">
+                    <p>A timed quiz that gives users a way to kill boredom, unwind, or have a 'tech happy hour', supplying each player with a delightful experience and a strong sense of control. The user picks a genre out of 8 possible choices (between movies, science, history, sports, music, television, books and geography), then chooses a difficulty setting (between easy, medium, and hard). The user is then presented with 15 consecutive questions, and 10 seconds to answer each one. At the end of each round, the player gets a final score reviewable on a dashboard.</p>
+                </div>
+            </article>
+            
+        </section>
+        
+        <section id="Work" class="m-1 row">
+        
+                <article class="col-3 quarter">
+                    <div class="d-flex p-2 header-spacer">
+                        <h2>Work</h2>
+                    </div>
+                </article>
+                    
+                <article class="col-9">
+                    <div class="row d-flex p-2">
+                        <div class="col-4">
+                            <h5>ERP Systems</h5>
+                            <img src="./Images/download.jpg" alt="ERP System">
+                            <p>Integration of different ERP Systems</p>
+                        </div>
+                        <div class="col-4">
+                            <h5>Inventory Management Systems</h5>
+                            <img src="./Images/inventory-management-systems.jpg" alt="Inventory Management Systems">
+                            <p>Automate the Re-order point to maintain safety stock at all times</p>
+                        </div>
+                        <div class="col-4">
+                            <h5>Order management Systems</h5>
+                            <img src="./Images/Inventory-Management1-1024x468.png" alt="Order management Systems">
+                        </div>
+                    </div>
+                </article>
+            
+            </section>
+        
+            <section id="ContactMe" class="m-1 row">
+
+                    <article class="col-3 quarter">
+                        <div class="d-flex p-2 header-spacer">
+                        <h2>Contact Me</h2>
+                        </div>
+                    </article>
+                    <article class="col-9">
+                        <div id="contact" class="row d-flex p-2">
+                            <div class="col-4 d-flex p-2">
+                                <h3>Email:<a href="mailto:vjrao91@gmail.com"> <button>Email Me</button> </a> </h3>
+                            </div>
+                            <div class="col-4 d-flex p-2">
+                                <h3>Phone:<button>647-949-0065</button></h3>
+                            </div>
+                            <div class="col-4 d-flex p-2">
+                                <h3>LinkedIn:<a href="https://www.linkedin.com/in/vijay-rao-scmgrad/"><button>LinkedIn</button></a></h3>
+                            </div>
+                        </div>
+                    </article>
+                
+            </section>
+
+            <section id="Resume" class="m-1 row">
+                    <article class="col-3 quarter">
+                        <div class="d-flex p-2 header-spacer">
+                            <h2>Resume</h2>
+                        </div>
+                    </article>
+                    <article class="col-9">
+                        <div id="button" class="d-flex p-2">
+                        <a href="https://flynncompanies-my.sharepoint.com/:b:/p/vijay_rao/Edt0rYcVs5hGt0p7S_MjFScB0fbDjlcMiu5gQMv3YuQWvQ?e=KDiFDo" target="_blank"><button>Resume</button></a>
+                        </div>
+                    </article>
+                
+            </section>
         </div>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#AboutMe">About Me</a>
-                </li>
-                <li>
-                    <a href="#Work">Work</a>
-                </li>
-                <li>
-                    <a href="#ContactMe">Contact Me</a>
-                </li>
-                <li>
-                    <a href="#Resume">Resume</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <section id="AboutMe">
-        
-        <article class="quarter">
-    
-            <div class="header-spacer">
-                <h2>About Me</h2>
-            </div>
-    
-        </article>
-        <article class="three">
-            <div class="content-spacer">
-                <p>Graduated from Seneca College after completing Supply Chain Management. Worked in the Supply chain
-                industry for more than 5 years. Have strong knowledge and experience working on implementation of
-                different ERP system tools.
-                After developing the ERP implemention skills, now learning and developing how to develop ERP system
-                tools which will be customized and applied to different industries besed on their needs.
-                </p>
-            </div>
-        </article>
-        
-        </section>
-    
-        <section id="Work">
-    
-            <article class="quarter">
-                <div class="header-spacer">
-                    <h2>Work</h2>
-                </div>
-            </article>
-                
-            <article class="three">
-                <div class="content-spacer">
-                    <div class="third">
-                        <h3>ERP Systems</h3>
-                        <img src="./Images/download.jpg" alt="ERP System">
-                        <p>Integration of different ERP Systems</p>
-                    </div>
-                    <div class="third">
-                        <h3>Inventory Management Systems</h3>
-                        <img src="./Images/inventory-management-systems.jpg" alt="Inventory Management Systems">
-                        <p>Automate the Re-order point to maintain safety stock at all times</p>
-                    </div>
-                    <div class="third">
-                        <h3>Order management Systems</h3>
-                        <img src="./Images/Inventory-Management1-1024x468.png" alt="Order management Systems">
-                    </div>
-                </div>
-            </article>
-        
-        </section>
-    
-        <section id="ContactMe">
-
-                <article class="quarter">
-                    <div class="header-spacer">
-                    <h2>Contact Me</h2>
-                    </div>
-                </article>
-                <article class="three">
-                    <div id="contact" class="content-spacer">
-                     <h3>Email:<a href="mailto:vjrao91@gmail.com"> <button>Email</button> </a> </h3>
-                    <h3>Phone:<button>647-949-0065</button></h3>
-                    <h3>LinkedIn:<a href="https://www.linkedin.com/in/vijay-rao-scmgrad/" target="_blank"><button>LinkedIn</button></a></h3>
-                
-                    </div>
-                </article>
-            
-        </section>
-
-        <section id="Resume">
-    
-                <article class="quarter">
-                    <div class="header-spacer">
-                        <h2>Resume</h2>
-                    </div>
-                </article>
-                <article class="three">
-                    <div id="button" class="content-spacer">
-                    <a href="https://flynncompanies-my.sharepoint.com/:b:/p/vijay_rao/Edt0rYcVs5hGt0p7S_MjFScB0fbDjlcMiu5gQMv3YuQWvQ?e=KDiFDo" target="_blank"><button>Resume</button></a>
-                    </div>
-                </article>
-            
-        </section>
 
         
     

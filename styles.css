@@ -7,8 +7,9 @@ header, footer {
     width: 100%;
     display: flex;
     flex-direction: row;
-    background-color: rgb(63, 63, 228);
+    background-color: rgb(53, 106, 158);
     height: 80px;
+    border-radius: 0.5rem;
 }
 .name{
     margin-left: 50px;
@@ -45,33 +46,29 @@ a:visited,a:link {
 }
 ul {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     list-style-type: none;
     justify-content: right;
-    color: white;
     width: 100%;
 
 }
 ul li {
     margin-right: 40px;
+    color: gray;
+    
 }
 
 section {
     display: flex;
-    width: 100%;
     overflow-x: hidden;
     flex-direction: row;
     margin-bottom: 20px;
 }
-.content-spacer {
-    display: flex;
-    width: 100%;
-    margin-left: 20px;
 
-}
 .quarter {
     width: 25%;
-    border-right: 5px solid black;
+    border-right: 5px solid rgb(39, 39, 61);
     display: inline-flex;
 }
 
@@ -81,23 +78,13 @@ section {
     text-align: right;
     margin-right: 40px;
 }
+img {
+    width: 100%;
+}
 
-.three {
-    width: 75%;
-    display: inline-flex;
-}
-.third{
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-
-}
-.third img {
-    object-fit: cover;
-}
 #contact {
     display: flex!important;
-    flex-direction: column;
+    width: 100%;
 }
 #button {
     width: 100%;
@@ -110,6 +97,14 @@ section {
     width: 200px;
     height: 50px;
 }
+.row {
+    background-color: rgb(53, 106, 158);
+    border-radius: 0.5rem;
+    margin-left: 25px;
+
+}
+
+
 
 @media only screen and (max-width: 1250px) {
 
