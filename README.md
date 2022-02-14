@@ -8,7 +8,7 @@ https://imvjrao.github.io/Interactive-Front-End-Project/
 ### Github URL for the porfolio with Project-1
 https://github.com/imvjrao/Interactive-Front-End-Project.git
 
-# ---------------------------------------------------------------------------------------------------------------------
+# 
 
 ### Deployed URL for Project -1
 https://evanab14.github.io/trivializer/
