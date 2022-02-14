@@ -12,7 +12,7 @@ https://github.com/imvjrao/Interactive-Front-End-Project.git
 https://evanab14.github.io/trivializer/
 
 
-![](./Images/Portfolio-screenshot.png)
+![](./Images/trivializer-screenshot.png)
 
 
 
