@@ -2,12 +2,12 @@
 
 ## Deployed URL for the Portfolio with Project-1
 
-!(./Images/Portfolio-screenshot)
+![](./Images/Portfolio-screenshot.png)
 
 ## Github URL for the porfolio with Project-1
 
 ## Deployed URL for Project -1
-
+![](./Images/Portfolio-screenshot.png)
 
 
 
