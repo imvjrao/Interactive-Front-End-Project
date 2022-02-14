@@ -1,4 +1,4 @@
-# CHALLENGE 2
+# PORTFOLIO WITH PROJECT-1
 
 ## Deployed URL for the Portfolio with Project-1
 https://imvjrao.github.io/Interactive-Front-End-Project/
